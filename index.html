@@ -34,9 +34,25 @@
   Serif, Sans-Serif, Monospace. El Sans-Serif es lletra de pal sec, per exemple, la lletra Arial (pantalles) o lletra Helvetica (BMW i Apple), no te cap gracia, serifa o adornaments. En canvi 
   , el serif seria una lletra amb adornaments, per exemple, timesnewroman, que s'utilitza molt en diaris i revistes, i georgia que es utilitzat en pantalles molt petites, (molt llegitble), 
   Monospace es una lletra que te el mateix tamany d'amplada de cada lletra, la lletra i te la mateixa amplada que la lletra m, s'utilitza per escriure codi, com per exemple, la lletra courier 
-  o Consoles.-->
+  o Consoles, les lletres concretes mes utilitzades del mon en el cas de monospace son courirer i consoles-->
             
   <style>
+    /* Els comentaris aqui son diferents, perque no es html es css i no puc posar <!-- --> he de posar /* comentari i */
+    /* la doble barra (//) ens permet fer comentaris de una linia de longitud dins de javascript pero aixo no es javascript*/
+    /* El body es el cos del codi, la part mes important que veo l'usuari, i a continuacio li diem que faci el theme o plantilla de color dark o fosc i que el menu desplegabe o dropdown-menu
+    tingui un color de fons (background-color) color 2c2c2c, si li poso !important pasara pero sobre de tots els colors. Per que el color es 2c2c2c? 2c es un numero hexadecimal
+    que vol dir en base 16: la base 16 inclou els numeros del 0 al 9 i despres al numero A que es 10 al numero B que es 11, al numero C que es 12, al numero D que es 13, el numero E que es 14
+    i el numero F que es 15, es a dir tenim 16 numeros. Tenim 16 numeros en el mon dels ordinadors, a vegades tenim 32 bits o 64 bits i tots aquest numeros son multiples de 2, perque els 
+    transistors que formen els ordinadors o els milions de transistors que formen els ordinadors poden estar en 2 estats, ences o apagat, ara aprendem que significa 2c en decimal
+    i binari, que es la base decimal, es com pensem els humans, en base 10, els ordinadors no pensem igual, pensen en binaris (0 i 1) i poden pensar en hexadecimal, que va del 0 al 9 
+    i de la A a la F.
+    2026=2·10^3+0·10^2+2·10^1+6·10^0=2000+0+20+6=2026
+    I ara, com pensa un ordinador? 2·16^1+c·16^0=2·16^1+11·16^0=2·16+11=32
+    I el numero 43 es com es posa en binari, en 0 i 1
+    es divideix entre 2 fins arribar al 1, i tots els residus donen 0 i 1 i aixi el transformo i dona 101011.
+    43 decimal = 1,0,1,0,1,1
+    =1·2+0·2+1·2+0·2+1·2+1·2=
+    =32+0+9+0+2+1=43
     /* 1. Submenús en mode fosc */
     body[data-bs-theme="dark"] .dropdown-menu {
       background-color: #2c2c2c !important;
